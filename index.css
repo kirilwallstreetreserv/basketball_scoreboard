@@ -1,0 +1,58 @@
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    
+}
+
+span{
+    font-family: CursedTimerUlil-Aznm;
+}
+
+.container { 
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    
+    gap: 20px;
+    color: white;
+    width:fit-content;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     
+    
+}
+
+.counter{
+    border-radius:5px ;
+    padding: 5px;
+    font-size: 90px;
+    font-family:CursedTimerUlil-Aznm ;
+    background-color: black;
+    margin-bottom: 20px;
+    
+}
+.list_buttons{
+    display: flex;
+    gap: 10px;
+    
+}
+button{
+    padding: 6px;
+    color: #9AABD8;     
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background-color: transparent;
+     font-family:CursedTimerUlil-Aznm ;
+}
